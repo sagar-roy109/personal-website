@@ -1,0 +1,98 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .half-width{
+        width: 50%;
+        float: left;
+        margin: 30px 0;
+    }
+    .half-width img{
+            width: 90%;
+        
+    }
+    
+    .button{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-image: linear-gradient(60deg,#ee775c,#eb6a4e);
+        padding: 10px 20px;
+        margin-top: 10px;
+        color: #fff;
+        font-weight:500;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: 2px 5px 15px #eb6a4e;
+
+    }
+    .button:hover{
+        background-image: linear-gradient(60deg,#ee775c,#d34f32);
+    }
+    /**** Header Area ****/
+
+    #menu ul{
+        text-align: right;
+        padding: 30px 0;
+        
+        
+    }
+    #menu ul li{
+        list-style: none;
+        display: inline-block;
+        
+    }
+
+    #menu a{
+        text-decoration: none;
+        color: #000;
+        padding: 0 15px;
+        
+        
+    }
+
+    /*** Hero Section **/
+
+    .hero-section h1 {
+        margin-top: 7.81vw;
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .hero-section .highlighted-text{
+        color: #FF8367;
+    }
+    .half-width p{
+        font-size: 16px;
+        margin: 20px 0;
+        line-height: 24px;
+    }
+
+
+
+    /**** ABOUT AREA ****/
+
+    .about-area  h2 {
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 11.71vw;
+    }
+    
+    /*** Latest Section ***/
+
+    .latest-section{
+        background-color: #E5E5E5;
+    }
+   

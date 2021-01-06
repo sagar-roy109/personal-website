@@ -9,6 +9,7 @@
     .container{
         width: 90%;
         margin: 0 auto;
+        
     }
 
 
@@ -16,6 +17,8 @@
         width: 50%;
         float: left;
         margin: 30px 0;
+        height: 470px;
+        
     }
     .half-width img{
             width: 90%;
@@ -42,6 +45,9 @@
     .button:hover{
         background-image: linear-gradient(60deg,#ee775c,#d34f32);
     }
+    .highlighted-text{
+        color: #FF8367;
+    }
     /**** Header Area ****/
 
     #menu ul{
@@ -65,15 +71,15 @@
     }
 
     /*** Hero Section **/
-
+    .hero-section{
+        overflow: hidden;
+    }
     .hero-section h1 {
         margin-top: 7.81vw;
         font-size: 80px;
         font-weight: 700;
     }
-    .hero-section .highlighted-text{
-        color: #FF8367;
-    }
+    
     .half-width p{
         font-size: 16px;
         margin: 20px 0;
@@ -83,9 +89,12 @@
 
 
     /**** ABOUT AREA ****/
-
+   .about-area{
+        overflow: hidden;
+        margin-bottom: 50px;
+   }
     .about-area  h2 {
-        font-size: 50px;
+        font-size: 48px;
         font-weight: 700;
         margin-top: 11.71vw;
     }
@@ -93,6 +102,133 @@
     /*** Latest Section ***/
 
     .latest-section{
-        background-color: #E5E5E5;
+        background-color: #F8f9fc;
+        padding: 100px 0 100px  0;
+        overflow: hidden;
+    }
+    .latest-section img{
+        width: 100%;
+    }
+
+    .latest-section h2{
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .latest-section .project-details{
+        width: 30%;
+        float: left;
+        background-color: #fff;
+        padding: 1%;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+
+    .latest-section .project-details.middle{
+        margin: 0 2%;
+    }
+    .project-details{
+        box-shadow: 12px 13px 16px #e2e2e2;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+}
+    .project-details:hover{
+        box-shadow: 12px 13px 16px #ff634724;
+        transform: scale(1.04);
+        cursor: pointer;
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        -o-transform: scale(1.04);
+}
+    .project-details h3{
+        font-size: 24px;
+        font-weight: 700;
+        margin: 15px 0;
+    }
+    .project-details p{
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 20px;
     }
    
+    /*** Testimonial Section ***/
+    .testimonial-section{
+        padding: 100px 0;
+    }
+    .tesitmonial{
+        width: 70%;
+        margin: auto;
+    }
+    .testimonial-section h2 {
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .tesitmonial img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .tesitmonial p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 20px 0;
+        font-style: italic;
+    }
+    .tesitmonial h6{
+        text-align: center;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+
+    /** Chat area ***/
+    
+    .chat-box{
+        background-image: url(images/background.png);
+        height: 225px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .chat-box .chat-text{
+        width: 70%;
+        float: left;
+        margin-top: 90px;
+    }
+  
+    .chat-box .chat-button{
+        width: 20%;
+        margin-top: 90px;
+        float: right;
+    }
+
+    .chat-box h2 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+        margin-left: 80px;
+    }
+
+    
+
+

@@ -48,6 +48,10 @@
     .highlighted-text{
         color: #FF8367;
     }
+
+
+
+
     /**** Header Area ****/
 
     #menu ul{
@@ -66,11 +70,24 @@
         text-decoration: none;
         color: #000;
         padding: 0 15px;
-        
-        
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+}
+
+    #menu a:hover{
+        color: #eb6a4e;
+        cursor: pointer;
     }
 
+
+
+
     /*** Hero Section **/
+
+
     .hero-section{
         overflow: hidden;
     }
@@ -88,7 +105,11 @@
 
 
 
+
+
     /**** ABOUT AREA ****/
+
+
    .about-area{
         overflow: hidden;
         margin-bottom: 50px;
@@ -99,6 +120,10 @@
         margin-top: 11.71vw;
     }
     
+
+
+
+
     /*** Latest Section ***/
 
     .latest-section{
@@ -159,7 +184,11 @@
         padding-bottom: 20px;
     }
    
+
+
+
     /*** Testimonial Section ***/
+
     .testimonial-section{
         padding: 100px 0;
     }
@@ -229,6 +258,38 @@
         margin-left: 80px;
     }
 
-    
 
+
+    /*** Footer Area **/
+
+
+    footer{
+        padding: 100px 0 50px 0;
+    }
+    footer p{
+        color: #696871;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    footer h2{
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center; 
+        margin-bottom: 30px;       
+    }
+    footer ul{
+        text-align: center;
+    }
+
+    footer ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    footer img{
+        width: 40px;
+        height: 40px;
+    }
 
